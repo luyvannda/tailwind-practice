@@ -1,15 +1,22 @@
 export default function Home() {
   return (
-    <main className="w-full">
-      <div className="m-6 w-1/2 rounded-lg border-t-2 border-purple-900 bg-purple-100 p-6 shadow-md">
-        <h1 className="text-3xl font-bold">Tailwind CSS ❤</h1>
-        <p className="text-lg font-medium leading-6 text-gray-800">
-          Tailwind CSS is basically a utility-first CSS framework for rapidly
-          building custom user interfaces. It is a highly customizable,
-          low-level CSS framework that gives you all of the building blocks you
-          need to build bespoke designs.
+    <main className="m-4">
+      <img
+        src="https://cdn.wallpapersafari.com/21/76/v26KTO.jpg"
+        alt="RDJ"
+        className="rounded-2xl transition-all duration-200"
+      />
+      <section>
+        <p className="my-3 font-bold">
+          Robert Downey Jr. is an American actor and producer. His career has
+          been characterized by critical and popular success in his youth,
+          followed by a period of substance abuse and legal troubles, before a
+          resurgence of commercial success later in his career.
         </p>
-      </div>
+        <button className="rounded-md bg-black px-4 py-2 font-bold text-yellow-300 transition-all duration-300">
+          Visit Instagram
+        </button>
+      </section>
     </main>
   );
 }
