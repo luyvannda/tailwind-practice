@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import TailwindStates from './components/TailwindStates';
+
 export default function Home() {
   return (
     <div>
@@ -23,6 +25,8 @@ export default function Home() {
           </button>
         </section>
       </main>
+
+      <TailwindStates />
     </div>
   );
 }
