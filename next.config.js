@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['cdn.wallpapersafari.com'],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.wallpapersafari.com',
+        port: '',
+      },
+    ],
   },
 };
 
