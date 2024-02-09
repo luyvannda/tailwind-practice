@@ -25,7 +25,7 @@
 
 @layer components {
   .btn {
-    @apply mt-4 w-20 rounded-lg bg-indigo-400 px-2 py-2 text-white ring-blue-500 hover:bg-indigo-600 focus:ring-2 active:bg-indigo-800;
+    @apply mx-1 w-20 rounded-lg bg-red-400 px-2 py-2 text-white ring-blue-500 hover:bg-red-600 focus:ring-2 active:bg-red-800;
   }
 }
 
