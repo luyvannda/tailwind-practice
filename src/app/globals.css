@@ -4,10 +4,33 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   html {
     @apply text-black;
     font-family: 'Inter', sans-serif;
+  }
+
+  h1 {
+    @apply text-4xl font-bold;
+  }
+
+  h2 {
+    @apply text-2xl font-semibold;
+  }
+
+  p {
+    @apply text-gray-500;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply mx-1 w-20 rounded-lg bg-red-400 px-2 py-2 text-white ring-blue-500 hover:bg-red-600 focus:ring-2 active:bg-red-800;
+  }
+}
+
+@layer directives {
+  .flex-center {
+    @apply flex items-center justify-center;
   }
 }

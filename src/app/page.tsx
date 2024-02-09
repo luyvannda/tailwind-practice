@@ -1,28 +1,21 @@
-import Image from 'next/image';
 export default function Home() {
   return (
-    <div className="group border-2 bg-white p-6 hover:bg-sky-500">
-      <p className="text-slate-500 group-hover:text-pink-800">
-        Create a new project from a variety of starting templates
-      </p>
-      <p className="text-slate-500">
-        Create a new project from a variety of starting templates
-      </p>
-      <p className="text-slate-500 group-hover:text-3xl">
-        Create a new project from a variety of starting templates
-      </p>
+    <div>
+      <h1>Welcome to Our Website</h1>
+      <h2>Tailwind is pretty dope</h2>
+      <p>Here : a lot of reasons why tailwind is dope</p>
 
-      <div className="flex flex-col bg-purple-400">
-        <div className="peer/yellowSquare order-4 h-12 w-12 bg-yellow-500"></div>
+      <h2>React is pretty dope</h2>
+      <p>Here : a lot of reasons why React is dope</p>
 
-        <div className="peer/blackSquare order-3 h-12 w-12 bg-black"></div>
+      <h2>NodeJS is pretty dope</h2>
+      <p>Here : a lot of reasons why NodeJS is dope</p>
 
-        <div className="order-1 hidden peer-hover/yellowSquare:block">
-          You are hovering the yellow square
-        </div>
-        <div className="order-2 hidden peer-hover/blackSquare:block">
-          You are hovering the black square
-        </div>
+      <button className="btn">Info</button>
+      <button className="btn">Danger</button>
+
+      <div className="flex-center h-20 bg-indigo-300">
+        <p>Center Text</p>
       </div>
     </div>
   );
